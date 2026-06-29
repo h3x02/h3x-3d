@@ -95,8 +95,10 @@ const ProductDetail: React.FC = () => {
     }
   };
 
-  const handleLike = (force = false) => {
-    if (!userLoggedIn && !force) {
+  const handleLike = (e?: React.MouseEvent<HTMLButtonElement> | boolean, force = false) => {
+    const isForce = typeof e === 'boolean' ? e : force;
+
+    if (!userLoggedIn && !isForce) {
       if (product) {
         setPendingAction({ type: 'like', payload: product.id });
       }

@@ -25,9 +25,9 @@ export const products: Product[] = [
       fa: "فیگورین"
     },
     images: [
-      "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg",
-      "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg",
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
+      "/assets/images/hero-2.jpg",
+      "/assets/images/hero-1.jpg",
+      "/assets/images/3DP001-3.jpg"
     ],
     featured: true,
     specifications: [
@@ -53,8 +53,8 @@ export const products: Product[] = [
       fa: "لوازم جانبی"
     },
     images: [
-      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg",
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
+      "/assets/images/3DP002-1.jpg",
+      "/assets/images/3DP002-2.jpg"
     ],
     featured: true,
     specifications: [
@@ -80,8 +80,8 @@ export const products: Product[] = [
       fa: "آموزشی"
     },
     images: [
-      "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg",
-      "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg"
+      "/assets/images/hero-3.jpg",
+      "/assets/images/3DP003-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -107,8 +107,8 @@ export const products: Product[] = [
       fa: "دکوراسیون منزل"
     },
     images: [
-      "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg",
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
+      "/assets/images/hero-1.jpg",
+      "/assets/images/3DP001-3.jpg"
     ],
     featured: true,
     specifications: [
@@ -134,8 +134,8 @@ export const products: Product[] = [
       fa: "فیگورین"
     },
     images: [
-      "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg",
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
+      "/assets/images/hero-2.jpg",
+      "/assets/images/3DP002-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -161,8 +161,8 @@ export const products: Product[] = [
       fa: "اداری"
     },
     images: [
-      "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg",
-      "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg"
+      "/assets/images/3DP003-2.jpg",
+      "/assets/images/hero-3.jpg"
     ],
     featured: false,
     specifications: [
@@ -188,8 +188,8 @@ export const products: Product[] = [
       fa: "بازی‌ها"
     },
     images: [
-      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg",
-      "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg"
+      "/assets/images/3DP002-1.jpg",
+      "/assets/images/hero-1.jpg"
     ],
     featured: true,
     specifications: [
@@ -215,8 +215,8 @@ export const products: Product[] = [
       fa: "روشنایی"
     },
     images: [
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
-      "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg"
+      "/assets/images/3DP001-3.jpg",
+      "/assets/images/hero-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -242,8 +242,8 @@ export const products: Product[] = [
       fa: "بازی‌ها"
     },
     images: [
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg",
-      "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg"
+      "/assets/images/3DP002-2.jpg",
+      "/assets/images/3DP003-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -269,8 +269,8 @@ export const products: Product[] = [
       fa: "دکوراسیون منزل"
     },
     images: [
-      "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg",
-      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg"
+      "/assets/images/hero-3.jpg",
+      "/assets/images/3DP002-1.jpg"
     ],
     featured: false,
     specifications: [
@@ -296,8 +296,8 @@ export const products: Product[] = [
       fa: "لوازم جانبی"
     },
     images: [
-      "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg",
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
+      "/assets/images/hero-1.jpg",
+      "/assets/images/3DP001-3.jpg"
     ],
     featured: false,
     specifications: [
@@ -323,8 +323,8 @@ export const products: Product[] = [
       fa: "فیگورین"
     },
     images: [
-      "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg",
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
+      "/assets/images/hero-2.jpg",
+      "/assets/images/3DP002-2.jpg"
     ],
     featured: true,
     specifications: [
