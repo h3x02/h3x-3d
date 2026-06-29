@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # or master - change to your default branch
+      - master
+  workflow_dispatch:  # 👈 ADD THIS LINE
 
 permissions:
   contents: write
