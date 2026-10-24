@@ -4,6 +4,11 @@ import SearchBox from './SearchBox';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+// Import images
+import hero1 from '../assets/images/hero-1.jpg';
+import hero2 from '../assets/images/hero-2.jpg';
+import hero3 from '../assets/images/hero-3.jpg';
+
 const Hero: React.FC = () => {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -18,7 +23,7 @@ const Hero: React.FC = () => {
       title: t('landing.hero1_title'),
       subtitle: t('landing.hero1_sub'),
       description: t('landing.hero1_desc'),
-      image: '/assets/images/hero-1.jpg',
+      image: hero1,  // Changed from '../assets/images/hero-1.jpg'
       cta: t('landing.hero1_cta'),
       ctaAction: () => navigate('/search'),
     },
@@ -26,7 +31,7 @@ const Hero: React.FC = () => {
       title: t('landing.hero2_title'),
       subtitle: t('landing.hero2_sub'),
       description: t('landing.hero2_desc'),
-      image: '/assets/images/hero-2.jpg',
+      image: hero2,  // Changed from '../assets/images/hero-2.jpg'
       cta: t('landing.hero2_cta'),
       ctaAction: () => navigate('/custom'),
     },
@@ -34,7 +39,7 @@ const Hero: React.FC = () => {
       title: t('landing.hero3_title'),
       subtitle: t('landing.hero3_sub'),
       description: t('landing.hero3_desc'),
-      image: '/assets/images/hero-3.jpg',
+      image: hero3,  // Changed from '../assets/images/hero-3.jpg'
       cta: t('landing.hero3_cta'),
       ctaAction: () => navigate('/search?category=Educational'),
     },

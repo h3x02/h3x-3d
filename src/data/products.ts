@@ -1,3 +1,11 @@
+import hero1 from '../assets/images/hero-1.jpg';
+import hero2 from '../assets/images/hero-2.jpg';
+import hero3 from '../assets/images/hero-3.jpg';
+import img3DP001_3 from '../assets/images/3DP001-3.jpg';
+import img3DP002_1 from '../assets/images/3DP002-1.jpg';
+import img3DP002_2 from '../assets/images/3DP002-2.jpg';
+import img3DP003_2 from '../assets/images/3DP003-2.jpg';
+
 export interface Product {
   id: string;
   name: { en: string; fa: string };
@@ -25,9 +33,9 @@ export const products: Product[] = [
       fa: "فیگورین"
     },
     images: [
-      "/assets/images/hero-2.jpg",
-      "/assets/images/hero-1.jpg",
-      "/assets/images/3DP001-3.jpg"
+      hero2,  // Changed from "../assets/images/hero-2.jpg"
+      hero1,  // Changed from "../assets/images/hero-1.jpg"
+      img3DP001_3  // Changed from "../assets/images/3DP001-3.jpg"
     ],
     featured: true,
     specifications: [
@@ -53,8 +61,8 @@ export const products: Product[] = [
       fa: "لوازم جانبی"
     },
     images: [
-      "/assets/images/3DP002-1.jpg",
-      "/assets/images/3DP002-2.jpg"
+      img3DP002_1,  // Changed from "../assets/images/3DP002-1.jpg"
+      img3DP002_2   // Changed from "../assets/images/3DP002-2.jpg"
     ],
     featured: true,
     specifications: [
@@ -80,8 +88,8 @@ export const products: Product[] = [
       fa: "آموزشی"
     },
     images: [
-      "/assets/images/hero-3.jpg",
-      "/assets/images/3DP003-2.jpg"
+      hero3,  // Changed from "../assets/images/hero-3.jpg"
+      img3DP003_2  // Changed from "../assets/images/3DP003-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -107,8 +115,8 @@ export const products: Product[] = [
       fa: "دکوراسیون منزل"
     },
     images: [
-      "/assets/images/hero-1.jpg",
-      "/assets/images/3DP001-3.jpg"
+      hero1,  // Changed from "../assets/images/hero-1.jpg"
+      img3DP001_3  // Changed from "../assets/images/3DP001-3.jpg"
     ],
     featured: true,
     specifications: [
@@ -134,8 +142,8 @@ export const products: Product[] = [
       fa: "فیگورین"
     },
     images: [
-      "/assets/images/hero-2.jpg",
-      "/assets/images/3DP002-2.jpg"
+      hero2,  // Changed from "../assets/images/hero-2.jpg"
+      img3DP002_2  // Changed from "../assets/images/3DP002-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -161,8 +169,8 @@ export const products: Product[] = [
       fa: "اداری"
     },
     images: [
-      "/assets/images/3DP003-2.jpg",
-      "/assets/images/hero-3.jpg"
+      img3DP003_2,  // Changed from "../assets/images/3DP003-2.jpg"
+      hero3  // Changed from "../assets/images/hero-3.jpg"
     ],
     featured: false,
     specifications: [
@@ -188,8 +196,8 @@ export const products: Product[] = [
       fa: "بازی‌ها"
     },
     images: [
-      "/assets/images/3DP002-1.jpg",
-      "/assets/images/hero-1.jpg"
+      img3DP002_1,  // Changed from "../assets/images/3DP002-1.jpg"
+      hero1  // Changed from "../assets/images/hero-1.jpg"
     ],
     featured: true,
     specifications: [
@@ -215,8 +223,8 @@ export const products: Product[] = [
       fa: "روشنایی"
     },
     images: [
-      "/assets/images/3DP001-3.jpg",
-      "/assets/images/hero-2.jpg"
+      img3DP001_3,  // Changed from "../assets/images/3DP001-3.jpg"
+      hero2  // Changed from "../assets/images/hero-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -242,8 +250,8 @@ export const products: Product[] = [
       fa: "بازی‌ها"
     },
     images: [
-      "/assets/images/3DP002-2.jpg",
-      "/assets/images/3DP003-2.jpg"
+      img3DP002_2,  // Changed from "../assets/images/3DP002-2.jpg"
+      img3DP003_2   // Changed from "../assets/images/3DP003-2.jpg"
     ],
     featured: false,
     specifications: [
@@ -269,8 +277,8 @@ export const products: Product[] = [
       fa: "دکوراسیون منزل"
     },
     images: [
-      "/assets/images/hero-3.jpg",
-      "/assets/images/3DP002-1.jpg"
+      hero3,  // Changed from "../assets/images/hero-3.jpg"
+      img3DP002_1  // Changed from "../assets/images/3DP002-1.jpg"
     ],
     featured: false,
     specifications: [
@@ -296,8 +304,8 @@ export const products: Product[] = [
       fa: "لوازم جانبی"
     },
     images: [
-      "/assets/images/hero-1.jpg",
-      "/assets/images/3DP001-3.jpg"
+      hero1,  // Changed from "../assets/images/hero-1.jpg"
+      img3DP001_3  // Changed from "../assets/images/3DP001-3.jpg"
     ],
     featured: false,
     specifications: [
@@ -323,8 +331,8 @@ export const products: Product[] = [
       fa: "فیگورین"
     },
     images: [
-      "/assets/images/hero-2.jpg",
-      "/assets/images/3DP002-2.jpg"
+      hero2,  // Changed from "../assets/images/hero-2.jpg"
+      img3DP002_2  // Changed from "../assets/images/3DP002-2.jpg"
     ],
     featured: true,
     specifications: [
